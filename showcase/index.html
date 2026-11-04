@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Thiên Chi Đỉnh · 天之巅 — Agent xây kho ngữ liệu và hỗ trợ phát triển ý tưởng sáng tác.">
+  <meta name="theme-color" content="#132820">
+  <title>Thiên Chi Đỉnh · 天之巅 — Kho ngữ liệu sáng tác</title>
+  <link rel="stylesheet" href="site.css">
+  <script src="site.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Vào nội dung / <span lang="zh-Hans">跳至正文</span></a>
+  <header class="header">
+    <div class="wrap header-inner">
+      <a href="#" class="brand">
+        <svg viewBox="0 0 40 40" class="brand-mark" aria-hidden="true"><rect width="40" height="40" rx="11" fill="#1a382d"/><path d="m8 27 9-13 5 7 4-5 6 11M15 27l4-5" fill="none" stroke="#c7ef9a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="27" cy="11" r="1.7" fill="#c7ef9a"/></svg>
+        <span>Thiên Chi Đỉnh <span class="brand-zh" lang="zh-Hans">天之巅</span></span>
+      </a>
+      <nav aria-label="Điều hướng / 导航">
+        <a href="#workflow">Quy trình <span lang="zh-Hans">流程</span></a>
+        <a href="#boundaries">Phạm vi <span lang="zh-Hans">边界</span></a>
+      </nav>
+      <a class="nav-cta" href="#demo">Thử duyệt <span lang="zh-Hans">试用</span><span aria-hidden="true">↘</span></a>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero" aria-labelledby="headline">
+      <svg class="ridge" viewBox="0 0 900 510" fill="none" aria-hidden="true" preserveAspectRatio="xMaxYMax meet">
+        <path id="contour" d="M0 480C84 468 115 396 196 389c69-6 96 42 162 22 86-26 108-154 192-171 64-13 103 52 160 29 58-23 83-130 190-139"/>
+        <use href="#contour" y="-120"/><use href="#contour" y="-100"/><use href="#contour" y="-80"/><use href="#contour" y="-60"/><use href="#contour" y="-40"/><use href="#contour" y="-20"/><use href="#contour" y="20"/><use href="#contour" y="40"/><use href="#contour" y="60"/><use href="#contour" y="80"/><use href="#contour" y="100"/><use href="#contour" y="120"/><use href="#contour" y="140"/>
+      </svg>
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="hero-kicker"><span class="signal"></span> AI Agent sáng tác <span lang="zh-Hans">创作语料助手</span></p>
+          <h1 id="headline">Tích lời.<br><em>Mở ý sáng tác.</em></h1>
+          <p class="hero-zh" lang="zh-Hans">积累好表达，打开创作思路。</p>
+          <p class="hero-description">Thiên Chi Đỉnh phân tích cách diễn đạt từ văn bản và âm thanh. Bạn duyệt nội dung để đưa vào kho, rồi dùng kho để phát triển ý tưởng.</p>
+          <p class="hero-description translation" lang="zh-Hans">天之巅从文本与音视频中提炼表达，经你审核后入库，供创作时检索和构思。</p>
+          <a href="#workflow" class="hero-link">Xem quy trình <span lang="zh-Hans">查看流程</span> <span aria-hidden="true">↓</span></a>
+          <p class="sources"><span>Nguồn / <span lang="zh-Hans">来源</span></span><span>Sangtacviet</span><span>YouTube</span><span>MP3 / MP4</span></p>
+        </div>
+        <section class="review" id="demo" aria-labelledby="review-title" tabindex="-1">
+          <header class="review-head">
+            <div class="review-label">
+              <span class="review-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M7 4h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Zm2 6h6m-6 4h4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></span>
+              <div><h2 id="review-title">Duyệt ngữ liệu</h2><span lang="zh-Hans">语料审核</span></div>
+            </div>
+            <span class="demo-badge">DEMO <span lang="zh-Hans">演示</span></span>
+          </header>
+          <div class="review-body">
+            <div class="progress-row"><span id="progress">Mục 1 / 3 · 第 1 项</span><span id="review-status">Chờ duyệt · 待审核</span></div>
+            <div class="progress-track" aria-hidden="true"><i></i><i></i><i></i></div>
+            <div id="sample" class="sample">
+              <div class="sample-id" id="sample-id">MẪU 01 / 示例 01</div>
+              <p class="sample-text" id="sample-text">Mưa vừa dứt, con đường nhỏ còn giữ lại mùi đất ẩm.</p>
+              <p class="sample-translation" id="sample-translation" lang="zh-Hans">雨刚停，小路上还留着湿润泥土的气息。</p>
+              <p class="sample-tags"><span id="sample-tags">Tả cảnh · Nhịp chậm</span><span id="sample-tags-zh" lang="zh-Hans">写景 · 舒缓</span></p>
+            </div>
+            <div class="choices" role="group" aria-label="Quyết định duyệt / 审核选项">
+              <button class="keep" type="button" data-code="1" aria-keyshortcuts="1"><kbd>1</kbd><span>Giữ <small lang="zh-Hans">通过</small></span></button>
+              <button type="button" data-code="2" aria-keyshortcuts="2"><kbd>2</kbd><span>Từ chối <small lang="zh-Hans">拒绝</small></span></button>
+              <button type="button" data-code="3" aria-keyshortcuts="3"><kbd>3</kbd><span>Xem sau <small lang="zh-Hans">稍后</small></span></button>
+            </div>
+            <div class="review-footer">
+              <p id="feedback" role="status">Dữ liệu mẫu. Duyệt thật trên Lark. <span lang="zh-Hans">演示语料，真实审核在 Lark。</span></p>
+              <div class="batch-actions">
+                <button class="reset" id="reset" type="button">Đặt lại <span lang="zh-Hans">重置</span></button>
+                <button class="commit" id="commit" type="button" disabled>Lưu lô mẫu <span lang="zh-Hans">保存</span></button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+    <section id="workflow" class="wrap section" aria-labelledby="workflow-title">
+      <div class="section-head">
+        <div><p class="eyebrow">01 / Quy trình <span lang="zh-Hans">工作流程</span></p><h2 id="workflow-title">Từ nguồn đến kho.</h2></div>
+        <p>Bạn quyết định mục nào được lưu.<span lang="zh-Hans">从来源到语料库，由你决定哪些内容入库。</span></p>
+      </div>
+      <ol class="steps">
+        <li><span class="step-number">01</span><h3>Nhận nguồn</h3><p lang="zh-Hans">获取来源</p><p>Đọc văn bản hoặc chuyển lời nói thành chữ.</p><p lang="zh-Hans">读取文本或转录音视频。</p></li>
+        <li><span class="step-number">02</span><h3>Phân tích</h3><p lang="zh-Hans">分析与去重</p><p>Đối chiếu ngữ cảnh, câu chữ và nội dung trùng.</p><p lang="zh-Hans">核对语境、表达与重复内容。</p></li>
+        <li><span class="step-number">03</span><h3>Duyệt nhanh</h3><p lang="zh-Hans">快速审核</p><p>Chọn 1 giữ, 2 từ chối, 3 xem sau.</p><p lang="zh-Hans">1 通过，2 拒绝，3 稍后。</p></li>
+        <li><span class="step-number">04</span><h3>Lưu và tra cứu</h3><p lang="zh-Hans">入库与检索</p><p>Lưu theo lô rồi tra cứu khi cần lên ý tưởng.</p><p lang="zh-Hans">按批入库，构思时检索。</p></li>
+      </ol>
+    </section>
+    <section id="boundaries" class="details">
+      <div class="wrap details-grid">
+        <div>
+          <p class="eyebrow">02 / Phạm vi <span lang="zh-Hans">能力边界</span></p>
+          <h2>Phân tích để bạn chọn.</h2>
+          <p class="detail-translation" lang="zh-Hans">Agent 分析，使用者决策。</p>
+          <ul class="rules">
+            <li>Ghi nhận cấu trúc câu, phong cách và sắc thái. Tách riêng thành ngữ và tri thức.<span lang="zh-Hans">提炼句式、风格与情绪，成语和知识分类存放。</span></li>
+            <li>Hỏi bạn khi nghi trùng hoặc cần đổi nguồn sau khi đã tìm cách bổ sung.<span lang="zh-Hans">疑似重复或尝试补充来源后仍需替换时，由你确认。</span></li>
+            <li>Khi lên cốt truyện, gợi 3–4 nhóm ý tưởng theo đề bài rồi đề xuất cách hành văn.<span lang="zh-Hans">构思时按主题提供 3–4 组创意，再建议行文风格。</span></li>
+          </ul>
+        </div>
+        <div id="evidence">
+          <p class="eyebrow">03 / Kiểm thử <span lang="zh-Hans">实测记录</span></p>
+          <h2>Đã chạy với nguồn mẫu.</h2>
+          <p class="detail-translation" lang="zh-Hans">使用样本验证关键流程。</p>
+          <ul class="checks">
+            <li><strong>Sangtacviet</strong><span>Đọc một khối nội dung chương.<br><span lang="zh-Hans">读取一个章节的正文片段。</span></span></li>
+            <li><strong>YouTube</strong><span>Chuyển 90 giây âm thanh thành chữ.<br><span lang="zh-Hans">完成 90 秒音频的文字转录。</span></span></li>
+            <li><strong>Lark</strong><span>Duyệt mục MP3 và MP4, lưu lô rồi tra cứu.<br><span lang="zh-Hans">审核 MP3 和 MP4 条目，入库后检索。</span></span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="wrap site-footer">
+    <strong>Thiên Chi Đỉnh <span lang="zh-Hans">天之巅</span></strong>
+    <p>Trang giới thiệu và dữ liệu minh họa <span lang="zh-Hans">独立展示页与示例语料</span></p>
+    <a href="#main">Về đầu trang <span lang="zh-Hans">返回顶部</span> ↑</a>
+  </footer>
+</body>
+</html>
